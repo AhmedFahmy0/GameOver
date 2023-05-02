@@ -26,7 +26,7 @@ return (
                 <ul className="navbar-nav m-auto mb-2 mb-lg-0">
                     {/* {crrUser ? <> */}
                         <li className="nav-item">
-                            <Link className="nav-link active text-center" aria-current="page" to="/home">Home</Link>
+                            <Link className="nav-link active text-center" aria-current="page" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link text-center" to="/all-games">All</Link>

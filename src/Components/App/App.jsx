@@ -43,10 +43,10 @@ function checkReload(){
 
     let router = createHashRouter([
         {path:"" , element:<Layout logOut={removeUserData} crrUser={loggedInUser}/> , children:[
-            {path:"/home" , element:  <Home userData={loggedInUser} saveUserData={getLoginUser} /> },
+            {path:"/" , element:  <Home userData={loggedInUser} saveUserData={getLoginUser} /> },
             {path:"login" , element:<Login saveUserData={getLoginUser}/>},
             {path:"register" , element:<Register/>},
-            {index:true , element:  <Home userData={loggedInUser} saveUserData={getLoginUser} /> },
+            // {index:true , element:  <Home userData={loggedInUser} saveUserData={getLoginUser} /> },
             {path:"all-games" , element:  <All userData={loggedInUser} saveUserData={getLoginUser} /> },
             {path:"game-details/:id" , element:  <GameDetails userData={loggedInUser} saveUserData={getLoginUser} /> },
             {path:"platforms/:platf" , element:  <GamesBy userData={loggedInUser} saveUserData={getLoginUser} /> },
