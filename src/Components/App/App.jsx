@@ -9,7 +9,7 @@ import All from '../All/All';
 import GameDetails from '../GameDetails/GameDetails';
 import jwtDecode from 'jwt-decode';
 import GamesBy from '../GamesBy/GamesBy';
-import ProtectedRoute from '../ProtectedRoute/ProtectedRoute';
+// import ProtectedRoute from '../ProtectedRoute/ProtectedRoute';
 import NotFound from '../NotFound/NotFound';
 
 
@@ -43,10 +43,10 @@ function checkReload(){
 
     let router = createHashRouter([
         {path:"" , element:<Layout logOut={removeUserData} crrUser={loggedInUser}/> , children:[
+            {path:"/home" , element:  <Home userData={loggedInUser} saveUserData={getLoginUser} /> },
             {path:"login" , element:<Login saveUserData={getLoginUser}/>},
             {path:"register" , element:<Register/>},
-            {path:"/home" , element:  <Home userData={loggedInUser} saveUserData={getLoginUser} /> },
-            {path:true , element:  <Home userData={loggedInUser} saveUserData={getLoginUser} /> },
+            {index:true , element:  <Home userData={loggedInUser} saveUserData={getLoginUser} /> },
             {path:"all-games" , element:  <All userData={loggedInUser} saveUserData={getLoginUser} /> },
             {path:"game-details/:id" , element:  <GameDetails userData={loggedInUser} saveUserData={getLoginUser} /> },
             {path:"platforms/:platf" , element:  <GamesBy userData={loggedInUser} saveUserData={getLoginUser} /> },
