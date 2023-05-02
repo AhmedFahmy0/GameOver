@@ -46,7 +46,7 @@ function checkReload(){
             {path:"login" , element:<Login saveUserData={getLoginUser}/>},
             {path:"register" , element:<Register/>},
             {path:"/home" , element:  <Home userData={loggedInUser} saveUserData={getLoginUser} /> },
-            {path:"/" , element:  <Home userData={loggedInUser} saveUserData={getLoginUser} /> },
+            {path:true , element:  <Home userData={loggedInUser} saveUserData={getLoginUser} /> },
             {path:"all-games" , element:  <All userData={loggedInUser} saveUserData={getLoginUser} /> },
             {path:"game-details/:id" , element:  <GameDetails userData={loggedInUser} saveUserData={getLoginUser} /> },
             {path:"platforms/:platf" , element:  <GamesBy userData={loggedInUser} saveUserData={getLoginUser} /> },
