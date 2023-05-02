@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AhmedFahmy0/GameOver/static/css/main.02d7e1f2.css",
-    "main.js": "/AhmedFahmy0/GameOver/static/js/main.6ac8d0c8.js",
+    "main.js": "/AhmedFahmy0/GameOver/static/js/main.f82b98f3.js",
     "static/js/787.6a541d2d.chunk.js": "/AhmedFahmy0/GameOver/static/js/787.6a541d2d.chunk.js",
     "static/media/fa-solid-900.ttf": "/AhmedFahmy0/GameOver/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
     "static/media/paladins.png": "/AhmedFahmy0/GameOver/static/media/paladins.b44d33d6e7ee1ba8.0fddd1fbe0a5e0a0af93.png",
@@ -16,11 +16,11 @@
     "static/media/fa-v4compatibility.woff2": "/AhmedFahmy0/GameOver/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
     "index.html": "/AhmedFahmy0/GameOver/index.html",
     "main.02d7e1f2.css.map": "/AhmedFahmy0/GameOver/static/css/main.02d7e1f2.css.map",
-    "main.6ac8d0c8.js.map": "/AhmedFahmy0/GameOver/static/js/main.6ac8d0c8.js.map",
+    "main.f82b98f3.js.map": "/AhmedFahmy0/GameOver/static/js/main.f82b98f3.js.map",
     "787.6a541d2d.chunk.js.map": "/AhmedFahmy0/GameOver/static/js/787.6a541d2d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.02d7e1f2.css",
-    "static/js/main.6ac8d0c8.js"
+    "static/js/main.f82b98f3.js"
   ]
 }
