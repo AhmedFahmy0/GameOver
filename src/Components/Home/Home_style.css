@@ -1,0 +1,13 @@
+.home-paner {
+    background: url(../../Assets/paladins.b44d33d6e7ee1ba8.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top ;
+    background-color: #1c1e22;
+    padding: 2rem 4rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(0,0,0,.6);
+    padding: 5rem 3rem !important;
+}
+
+

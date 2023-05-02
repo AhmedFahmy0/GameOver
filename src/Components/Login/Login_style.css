@@ -1,0 +1,21 @@
+.f-register{
+    background-color: #32383e !important;
+}
+button{
+    border: 1px solid black;
+    background-color: #3a3f44;
+    color: #fff;
+    padding: 10px ;
+    border-radius: 10px !important;    
+}
+.paner-register{
+    background-image: url(../../Assets/gaming.ebaf2ffc84f4451d.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.logo-log{
+    filter: drop-shadow(1px 1px 3px #1983e6ce) !important;
+}
+.forgot{
+    cursor: pointer;
+}
