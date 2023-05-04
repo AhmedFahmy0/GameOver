@@ -40,7 +40,7 @@ export default function Register() {
         .email({ minDomainSegments: 2, tlds: { allow: ["com", "net"] } })
         .required(),
       password: Joi.string()
-        .pattern(/^[0-9](3,6)/i)
+        .pattern(/^[0-9]{3,6}/i)
         .required(),
       age: Joi.number().min(18).max(60).required(),
     });
